@@ -1,0 +1,212 @@
+body {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background-color: #444444;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    color: #1CFF20;
+    text-align: center;
+
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #1CFF20;
+    font-size: 50px;
+
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    text-indent: 50px;
+    margin-top: 30px;
+}
+
+
+th {
+    color: #1CFF20;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    color: white;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+tr:first-child > th {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+tr:not(:first-child) > th {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+hr {
+    border-color: #1CFF20;
+}
+
+td p {
+    text-indent: 0px;
+    text-align: center;
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+
+
+
+.navigation-bar {
+    display: inline-block;
+    float: right;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    padding: 35px 0px;
+}
+
+.navigation {
+    display: inline-block;
+
+    color: white;
+    text-decoration: unset;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+
+    padding: 0px 10px;
+}
+
+.navigation:hover {
+    color: #1CFF20;
+}
+
+
+.project_link {
+    display: inline-block;
+
+    color: #1CFF20;
+    text-decoration: unset;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+
+    padding: 10px;
+}
+
+.project_link:hover {
+    color: #1CFF20;
+}
+
+
+.dev_link {
+
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    color: #1CFF20;
+    text-align: center;
+
+    font-size: 30px;
+
+    border-style: solid;
+    border-color: #1CFF20;
+    border-width: 3px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-right: 200px;
+
+    /*margin: auto;
+
+    display: inline-block;*/
+}
+
+.dev_link:hover {
+    color: #1CFF20;
+}
+
+.profile_img_link:hover {
+    text-decoration: unset;
+}
+
+
+.profile_link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-decoration: unset;
+    color: white;
+
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+
+.profile_link:hover {
+
+    text-decoration: underline;
+    color: #1CFF20;
+
+}
+
+.project_desc {
+    text-align: left;
+    text-indent: 30px;
+    padding: 25px;
+}
+
+
+/* id's */
+
+#profile_pic {
+    width: 10%;
+}
+
+#dev {
+    background-image: url(code.png);
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    width: 100%;
+
+    border-style: solid;
+    border-color: #1CFF20;
+    border-width: 5px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#dev_links {
+    margin-left: 26%;
+    margin-top: 15%;
+
+    width: 100%;
+
+    display: inline-block;
+}
+
+
+
+
